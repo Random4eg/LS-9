@@ -104,11 +104,14 @@ form {
   align-items: center;
 }
 .yawa__circle {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   background: #3b4256;
-  /* color: white; 
-   content: "\2713"; */
+  transform: scale(0);
+}
+.yawa__circle::before {
+  color: white;
+  content: "\2713";
   transform: scale(0);
 }
 
